@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: Calculator;
+    src: url(fonts/Calculator.woff);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.woff);
+}
+
+@font-face {
+    font-family: Platinum;
+    src: url(fonts/Platinum\ Sign.woff);
+}
+
+
+.botoes {
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-family: Bebas;
+}
+
+.botoes:hover {
+    background-color: black;
+    color: white;
+}
+
+.linhas {
+    display: inline;
+
+}
+
+#form-calculadora {
+    border-radius: 10px;
+    width: 22.5%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #1E90FF;
+    box-shadow: 10px 10px 100px black;
+}
+
+#info {
+    margin-left: 0;
+    height: 50px;
+    line-height: 1.0;
+    text-align: right;
+    font-family: Calculator;
+    color: white;
+    background-color: #808080;
+    border-radius: 10px;
+    font-size: 55px;
+    padding: 30px;
+}
